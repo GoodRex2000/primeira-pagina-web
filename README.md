@@ -4,6 +4,10 @@ Uma página em português para quem está começando a criar sites. Ela apresent
 
 Projeto individual da disciplina Desenvolvimento Web I, criado por Lázaro Fornari. O tema é independente do Projeto Integrador.
 
+## Site publicado
+
+[Acesse a página no GitHub Pages](https://goodrex2000.github.io/primeira-pagina-web/).
+
 ## Arquivos
 
 - `index.html`: conteúdo e estrutura da página.
