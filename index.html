@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Um guia simples para criar e publicar sua primeira página na web, usando HTML, CSS, Git e GitHub Pages.">
+    <title>Do zero ao primeiro site | Lázaro Fornari</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Início, Do zero ao primeiro site">
+          <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span>primeiro<span class="brand-accent">site</span></span>
+        </a>
+        <nav aria-label="Navegação principal">
+          <a href="#caminho">O caminho</a>
+          <a href="#projeto">Na prática</a>
+          <a href="#conceitos">Conceitos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> UM GUIA PARA COMEÇAR</p>
+            <h1 id="titulo-principal">Todo site começa com uma <em>página em branco.</em></h1>
+            <p class="hero-lead">Você escreve a estrutura, escolhe as cores e coloca tudo no ar. Parece muita coisa, mas dá para aprender um passo de cada vez.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#caminho">Ver por onde começar <span aria-hidden="true">↗</span></a>
+              <span class="small-note">HTML + CSS + GitHub Pages</span>
+            </div>
+          </div>
+
+          <div class="browser-art" aria-label="Ilustração de uma página web feita com HTML e CSS" role="img">
+            <div class="browser-bar">
+              <div class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>meu-primeiro-site.com</span>
+            </div>
+            <div class="browser-body" aria-hidden="true">
+              <div class="browser-topline"><span class="mini-logo"></span><span class="mini-links"></span></div>
+              <div class="browser-tag">OLÁ, MUNDO!</div>
+              <div class="browser-heading"></div>
+              <div class="browser-heading short"></div>
+              <div class="browser-text"></div>
+              <div class="browser-text medium"></div>
+              <div class="browser-button"></div>
+              <div class="browser-cards"><span></span><span></span><span></span></div>
+            </div>
+            <div class="floating-label label-html">&lt;html&gt;</div>
+            <div class="floating-label label-css">{ css }</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="path-section section" id="caminho" aria-labelledby="caminho-titulo">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">PASSO A PASSO</p>
+              <h2 id="caminho-titulo">O caminho até a publicação</h2>
+            </div>
+            <p>Quatro etapas para transformar uma ideia simples em um endereço que qualquer pessoa pode abrir.</p>
+          </div>
+          <div class="steps">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <div class="step-icon" aria-hidden="true">&lt;&gt;</div>
+              <h3>Monte a estrutura</h3>
+              <p>O HTML organiza títulos, parágrafos, links e seções. Ele dá significado a cada parte da página.</p>
+              <span class="step-file">index.html</span>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <div class="step-icon" aria-hidden="true">#</div>
+              <h3>Cuide do visual</h3>
+              <p>O CSS define cores, espaçamentos e disposição dos elementos. Também adapta o layout ao celular.</p>
+              <span class="step-file">styles.css</span>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <div class="step-icon" aria-hidden="true">↗</div>
+              <h3>Salve a evolução</h3>
+              <p>Com Git, cada commit registra uma etapa do trabalho. O GitHub guarda o repositório na internet.</p>
+              <span class="step-file">git commit</span>
+            </article>
+            <article class="step-card">
+              <span class="step-number">04</span>
+              <div class="step-icon" aria-hidden="true">◉</div>
+              <h3>Coloque no ar</h3>
+              <p>O GitHub Pages publica os arquivos do repositório e cria um link público para compartilhar.</p>
+              <span class="step-file">GitHub Pages</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="practice-section section" id="projeto" aria-labelledby="projeto-titulo">
+        <div class="container practice-grid">
+          <div class="practice-copy">
+            <p class="eyebrow">NA PRÁTICA</p>
+            <h2 id="projeto-titulo">Comece pequeno.<br>Publique de verdade.</h2>
+            <p>Uma única página já é um projeto completo para aprender. Este site, por exemplo, usa somente dois arquivos para a interface: HTML para o conteúdo e CSS para o visual.</p>
+            <ul class="check-list">
+              <li>Escreva um assunto que você conhece.</li>
+              <li>Separe o conteúdo em seções claras.</li>
+              <li>Teste no computador e no celular.</li>
+              <li>Publique e abra o link em outra aba.</li>
+            </ul>
+          </div>
+          <div class="file-panel" aria-label="Exemplo de organização dos arquivos do projeto">
+            <div class="panel-header"><span class="panel-icon" aria-hidden="true">⌁</span> meu-projeto <span class="panel-caption">ARQUIVOS</span></div>
+            <div class="file-row"><span class="file-glyph html-glyph" aria-hidden="true">H</span><div><strong>index.html</strong><small>O conteúdo da página</small></div></div>
+            <div class="file-row"><span class="file-glyph css-glyph" aria-hidden="true">C</span><div><strong>styles.css</strong><small>As regras de aparência</small></div></div>
+            <div class="file-row"><span class="file-glyph md-glyph" aria-hidden="true">M</span><div><strong>README.md</strong><small>A apresentação do projeto</small></div></div>
+            <p class="panel-tip">Dica: use caminhos relativos, como <code>styles.css</code>, para que o visual funcione também no Pages.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="concept-section section" id="conceitos" aria-labelledby="conceitos-titulo">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">SEM COMPLICAÇÃO</p>
+              <h2 id="conceitos-titulo">Três palavras para guardar</h2>
+            </div>
+            <p>Elas aparecem o tempo todo quando você começa a criar para a web.</p>
+          </div>
+          <div class="concept-grid">
+            <article><span>01 /</span><h3>Repositório</h3><p>É a pasta do projeto no GitHub, com os arquivos e o histórico das alterações.</p></article>
+            <article><span>02 /</span><h3>Commit</h3><p>É um registro de uma mudança. Uma mensagem clara ajuda a entender o que foi feito.</p></article>
+            <article><span>03 /</span><h3>Hospedagem</h3><p>É o serviço que deixa os arquivos disponíveis para as pessoas acessarem pelo navegador.</p></article>
+          </div>
+          <div class="closing-note">
+            <p>Você não precisa saber tudo antes de começar.<br><strong>Abra o editor, faça uma página e melhore a próxima versão.</strong></p>
+            <a href="#inicio">Voltar ao início ↑</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Feito por Lázaro Fornari · Desenvolvimento Web I · 2026</p>
+        <p>Uma página estática, feita com HTML e CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>
